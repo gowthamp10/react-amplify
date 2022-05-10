@@ -7,15 +7,14 @@
     color: white;
 }
 .login{    
-    background:  
-        url('../images/dash.jpeg'); 
+    background-image :url("https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcGxlJTIwY2FyZHxlbnwwfHwwfHw%3D&w=1000&q=80");
     background-size: 100% 100%;
     background-attachment: fixed;
     min-height:100vh;
 }
 .nbank{    
     background: linear-gradient(rgba(0,233,233,0.2) 100%,rgba(0,233,233,0.1) 100%), 
-        url('../images/dash.jpeg'); 
+        url('https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcGxlJTIwY2FyZHxlbnwwfHwwfHw%3D&w=1000&q=80'); 
     background-size: 100% 120%;
     background-attachment: fixed;
     min-height:400vh;
@@ -46,3 +45,4 @@ table.table-bordered > tbody > tr > td{
 .table-hover tbody tr:hover >th{
     background-color: red;
 }
+
