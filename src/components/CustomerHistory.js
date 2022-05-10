@@ -6,7 +6,7 @@ function CustomerHistory(){
     const cid=sessionStorage.getItem("id")
     const [trans,setTrans]=useState([])
     useEffect(()=>{
-        axios.get("http://52.12.177.99/api/accounts/history/"+cid)
+        axios.get("http://localhost:8090/api/accounts/history/"+cid)
         .then(resp=>{
             console.log(resp.data)    
             setTrans(resp.data.data)        
